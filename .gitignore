@@ -1,0 +1,11 @@
+# settings.json backups the installer makes (in ~/.claude, but ignore if copied here)
+*.bak
+*.bak.*
+
+# local debugging artifacts
+probe.log
+ledger/
+
+# OS cruft
+.DS_Store
+Thumbs.db
