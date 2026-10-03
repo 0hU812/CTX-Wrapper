@@ -1,0 +1,4 @@
+# Force LF on checkout for everyone. Bash scripts break if Git hands a Windows
+# user CRLF line endings (\r in the shebang / read), so never convert these.
+* text=auto eol=lf
+*.sh text eol=lf
